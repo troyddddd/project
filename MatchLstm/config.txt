@@ -1,0 +1,37 @@
+keep same: learning_rate 0.001, batch_size 30, epochs 10
+
+
+run 1:
+
+1: keep_prob 1.0, num_hidden_unit 150, embedding_size 300
+2: keep_prob 0.9, num_hidden_unit 150, embedding_size 300
+3: keep_prob 0.8, num_hidden_unit 150, embedding_size 300
+
+4: keep_prob 1.0, num_hidden_unit 200, embedding_size 300
+5: keep_prob 0.9, num_hidden_unit 200, embedding_size 300
+6: keep_prob 0.8, num_hidden_unit 200, embedding_size 300
+
+7: keep_prob 1.0, num_hidden_unit 250, embedding_size 300
+8: keep_prob 0.9, num_hidden_unit 250, embedding_size 300
+9: keep_prob 0.8, num_hidden_unit 250, embedding_size 300
+
+10: keep_prob 1.0, num_hidden_unit 150, embedding_size 200
+11: keep_prob 0.9, num_hidden_unit 150, embedding_size 200
+12: keep_prob 0.8, num_hidden_unit 150, embedding_size 200
+
+13: keep_prob 1.0, num_hidden_unit 200, embedding_size 200
+14: keep_prob 0.9, num_hidden_unit 200, embedding_size 200
+15: keep_prob 0.8, num_hidden_unit 200, embedding_size 200
+
+16: keep_prob 1.0, num_hidden_unit 250, embedding_size 200
+17: keep_prob 0.9, num_hidden_unit 250, embedding_size 200
+18: keep_prob 0.8, num_hidden_unit 250, embedding_size 200
+
+
+run 2:
+
+pick 5 with best results, run 15 epochs (10 more),
+
+pick 5 with best results, change LSTM to GRU and run 15 epochs,
+
+ensamble the models. 
