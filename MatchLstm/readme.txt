@@ -5,4 +5,4 @@ data directory contains the preprocessed data.
 embedding directory contains embedding files and ids of words to embeddings.
 src directory contains features and needed files ported from tensorflow 1.3.
 Due to the file size issue, didn’t upload glove into embedding folder.
-Group Project by Tianhang Sun, Yijun Dai, Zheng Wu, Xi Chen, Xu Yang
+Group Project by Tianhang Sun, Yijun Dai, Ren Wu, Xi Chen, Xu Yang
